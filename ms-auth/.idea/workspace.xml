@@ -4,34 +4,30 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="391fbea3-ba51-47c3-a6c2-a7cebae5ed22" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../auth-service/.gitattributes" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/MsAuthApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/controller/AuthUserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/dto/AuthUserDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/entity/AuthUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/entity/TokenDto.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/repository/AuthUserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/security/JwtProvider.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/security/PasswordEncoderConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/service/AuthUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/java/com/example/msauth/service/impl/AuthUserServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../auth-service/src/test/java/com/example/msauth/MsAuthApplicationTests.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="aba62fc6-6ba6-4acf-99fe-8a516b60c36f" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/msauth/dto/AuthUserDto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/msauth/dto/AuthUserDto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="package-info" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -43,25 +39,20 @@
       </MavenGeneralSettings>
     </option>
   </component>
-  <component name="ProjectColorInfo">{
-  &quot;associatedIndex&quot;: 3
-}</component>
-  <component name="ProjectId" id="2pJCHXiYSn6dAouIyKYvG2BiYGn" />
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 3
+}]]></component>
+  <component name="ProjectId" id="2pJFgrHg5Xg7mTvYlsdAnZDRIyH" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "RequestMappingsPanelOrder0": "0",
-    "RequestMappingsPanelOrder1": "1",
-    "RequestMappingsPanelWidth0": "75",
-    "RequestMappingsPanelWidth1": "75",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.MsAuthApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "E:/ProyectoFinalDAD/ms-auth",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -93,13 +84,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="391fbea3-ba51-47c3-a6c2-a7cebae5ed22" name="Changes" comment="" />
-      <created>1732474703807</created>
+      <changelist id="aba62fc6-6ba6-4acf-99fe-8a516b60c36f" name="Changes" comment="" />
+      <created>1732476386065</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1732474703807</updated>
-      <workItem from="1732474705130" duration="1166000" />
-      <workItem from="1732475921165" duration="207000" />
+      <updated>1732476386065</updated>
+      <workItem from="1732476387327" duration="526000" />
     </task>
     <servers />
   </component>
