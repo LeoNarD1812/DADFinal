@@ -1,6 +1,7 @@
 package com.example.mspago.service.impl;
 
 import com.example.mspago.entity.Pay;
+import com.example.mspago.feign.InscriptionFeign;
 import com.example.mspago.repository.PayRepository;
 import com.example.mspago.service.PayService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,13 +14,20 @@ import java.util.Optional;
 public class PayServiceImpl implements PayService {
     @Autowired
     private PayRepository payRepository;
+    @Autowired
+    private InscriptionFeign inscriptionFeign;
+
     @Override
     public List<Pay> list() {
         return payRepository.findAll();
     }
     @Override
     public Optional<Pay> findById(Integer id) {
-        return payRepository.findById(id);
+        Optional<Pay> pay = payRepository.findById(id);
+        pay.get().getPays().forEach(payDetail -> {
+            payDetail.setInscriptionDto(inscriptionFeign.getById(payDetail.getInscriptionId()).getBody());
+        });
+        return pay;
     }
     @Override
     public Pay save(Pay pay) {
