@@ -33,8 +33,8 @@ public class InscriptionController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Optional<Inscription>> getById(@PathVariable Integer id) {
-        return ResponseEntity.ok(inscriptionService.findById(id));
+    public ResponseEntity<Inscription> getById(@PathVariable Integer id) {
+        return ResponseEntity.ok(inscriptionService.findById(id).get());
     }
 
     @PostMapping

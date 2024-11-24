@@ -7,7 +7,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-@FeignClient(name = "ms-evento-service", path = "/product")
+@FeignClient(name = "ms-evento-service", path = "/event")
 public interface EventFeign {
     @GetMapping("/{id}")
     @CircuitBreaker(name = "eventListByIdCB", fallbackMethod = "eventListById")
