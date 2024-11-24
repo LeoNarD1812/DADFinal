@@ -28,10 +28,22 @@ spring:
         locator:
           enable: true
       routes:
+        - id: ms-usuario-service
+          uri: lb://ms-usuario-service
+          predicates:
+            - Path=/usuario/**
+          filters:
+            - AuthFilter
+        - id: ms-inscripcion-service
+          uri: lb://ms-inscripcion-service
+          predicates:
+            - Path=/inscripcion/**
+          filters:
+            - AuthFilter
         - id: ms-evento-service
           uri: lb://ms-evento-service
           predicates:
-            - Path=/category/**
+            - Path=/category/**, /event/**
           filters:
             - AuthFilter
         - id: ms-auth-service
