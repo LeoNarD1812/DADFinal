@@ -1,6 +1,7 @@
 package com.example.mspago.entity;
 
 import com.example.mspago.dto.InscriptionDto;
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
 import lombok.Data;
 

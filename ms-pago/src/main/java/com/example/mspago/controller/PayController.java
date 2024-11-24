@@ -11,6 +11,7 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
+import java.util.Optional;
 
 @RestController
 @RequestMapping("/pago")
@@ -27,8 +28,8 @@ public class PayController {
     }
 
     @GetMapping("/{id}")
-    public ResponseEntity<Pay> getById(@PathVariable Integer id) {
-        return ResponseEntity.ok(payService.findById(id).get());
+    public ResponseEntity<Optional<Pay>> getById(@PathVariable Integer id) {
+        return ResponseEntity.ok(payService.findById(id));
     }
     @PostMapping
     public ResponseEntity<?> create(@RequestBody Pay pay) {
